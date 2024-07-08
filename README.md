@@ -1,10 +1,9 @@
 # XSS
-XSS
 
+**Basic**
 ```
 "><img src=x onerror=alert()>
 ```
-
 
 **Button**
 ```
